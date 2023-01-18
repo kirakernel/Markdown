@@ -30,3 +30,18 @@ Você pode indicar ênfase com texto em negrito, itálico, tachado, subscrito ou
 3. Itálico - \*This text is italicized\* - *This text is italicized*
 4. Itálico - \_This text is italicized\_ - _This text is italicized_
 5. Tachado - \~\~This was mistaken text\~\~ - ~~Este texto contém um error~~
+
+## Texto de referência
+
+Você pode citar um texto com `>`.
+
+```md
+Text that is not a quote
+ > Text that is a quote
+```
+
+Text that is not a quote
+ > Text that is a quote
+
+
+ 
