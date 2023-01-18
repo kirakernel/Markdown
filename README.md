@@ -152,4 +152,31 @@ Por exemplo, o seguinte código exibe uma imagem de sol para temas claros e uma 
 O método antigo de especificar imagens com base no tema, usando um fragmento acrescentado à URL (**#gh-dark-mode-only** ou **#gh-light-mode-only**), foi preterido e será removido em favor do novo método descrito acima.
 
 
+## Listas
+
+Você pode criar uma lista não ordenada precedendo uma ou mais linhas de texto com `-`, `*` ou `+`.
+
+```md
+- George Washington
+* John Adams
++ Thomas Jefferson
+```
+
+- George Washington
+* John Adams
++ Thomas Jefferson
+
+Para ordenar a lista, coloque um número na frente de cada linha.
+
+```md
+1. James Madison
+2. James Monroe
+3. John Quincy Adams
+```
+
+1. James Madison
+2. James Monroe
+3. John Quincy Adams
+
+
 
