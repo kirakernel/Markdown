@@ -241,3 +241,19 @@ Se a descrição de um item da lista de tarefas começar com parênteses, você 
 ```md
 - [ ] \(Optional) Open a followup issue
 ```
+
+
+## Mencionar pessoas e equipes
+
+Você pode mencionar uma pessoa ou uma equipe no GitHub digitando `@` mais seu nome de usuário ou o nome da equipe. Isto desencadeará uma notificação e chamará a sua atenção para a conversa. As pessoas também receberão uma notificação se você editar um comentário para mencionar o respectivo nome de usuário ou da equipe. Para obter mais informações sobre as notificações, confira *“Sobre notificações.”*
+
+```md
+@github/support What do you think about these updates?
+```
+@superkake What do you think about these updates?
+
+Quando você menciona uma equipe principal, os integrantes de suas equipes secundárias também recebem notificações, simplificando a comunicação com vários grupos de pessoas. Para obter mais informações, confira *"Sobre as equipes"*.
+
+Se você digitar um símbolo `@`, uma lista de pessoas ou de equipes em um projeto será exibida. A lista é filtrada à medida que você digita. Portanto, assim que você achar o nome da pessoa ou da equipe que está procurando, use as teclas de seta para selecioná-lo e pressione tab ou enter para completar o nome. Para equipes, insira o `@organization/team-name` e todos os membros dessa equipe serão inscritos na conversa.
+
+Os resultados do preenchimento automático são restritos aos colaboradores do repositório e qualquer outro participante no thread.
