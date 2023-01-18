@@ -96,3 +96,23 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 ```
 
 This site was built using [GitHub Pages](https://pages.github.com/).
+
+## Links de seleção
+
+Você pode vincular diretamente a uma seção de um arquivo interpretado, passando o mouse sobre o título da seção para expor o link:
+
+![](https://docs.github.com/assets/cb-25655/images/help/repository/readme-links.png)
+
+## Links relativos
+
+É possível definir links relativos e caminhos de imagens em seus arquivos representados para ajudar os leitores a acessar outros arquivos no repositório.
+
+Um link relativo é um link que é relativo ao arquivo atual. Por exemplo, se você tiver um arquivo *LEIAME* na raiz do repositório e tiver outro arquivo em *docs/CONTRIBUTING.md*, o link relativo para *CONTRIBUTING.md* no *LEIAME* poderá ter esta aparência:
+
+```md
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+```
+
+GitHub transformará automaticamente o seu link relativo ou caminho da imagem baseado em qualquer branch em que você estiver no momento para que o link ou caminho sempre funcione. O caminho do link será relativo ao arquivo atual. Links que começam com */* serão relativos à raiz do repositório. Você pode usar todos os operandos de link relativos, como *./* e *../*.
+
+Os links relativos são mais fáceis para usuários que clonam o seu repositório. Os links absolutos podem não funcionar em clones do seu repositório - recomendamos usar links relativos para referir-se a outros arquivos no seu repositório.
