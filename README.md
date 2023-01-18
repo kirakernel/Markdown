@@ -116,3 +116,13 @@ Um link relativo é um link que é relativo ao arquivo atual. Por exemplo, se vo
 GitHub transformará automaticamente o seu link relativo ou caminho da imagem baseado em qualquer branch em que você estiver no momento para que o link ou caminho sempre funcione. O caminho do link será relativo ao arquivo atual. Links que começam com */* serão relativos à raiz do repositório. Você pode usar todos os operandos de link relativos, como *./* e *../*.
 
 Os links relativos são mais fáceis para usuários que clonam o seu repositório. Os links absolutos podem não funcionar em clones do seu repositório - recomendamos usar links relativos para referir-se a outros arquivos no seu repositório.
+
+
+## Imagens
+
+Você pode exibir uma imagem adicionando `!` e colocando o texto Alt entre `[ ]`. Em seguida, coloque o link da imagem entre parênteses `()`.
+
+```md
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+```
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
