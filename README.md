@@ -25,11 +25,11 @@ Ao usar dois ou mais cabeçalhos, o GitHub gera automaticamente uma tabela de co
 
 Você pode indicar ênfase com texto em negrito, itálico, tachado, subscrito ou sobrescrito em campos de comentários e arquivos `.md`.
 
-1. Negrito - \*\*This is bold text\*\* - **This is bold text**
-2. Negrito - \_\_This is bold text\_\_ - __This is bold text__
-3. Itálico - \*This text is italicized\* - *This text is italicized*
-4. Itálico - \_This text is italicized\_ - _This text is italicized_
-5. Tachado - \~\~This was mistaken text\~\~ - ~~Este texto contém um error~~
+- Negrito - \*\*This is bold text\*\* - **This is bold text**
+* Negrito - \_\_This is bold text\_\_ - __This is bold text__
++ Itálico - \*This text is italicized\* - *This text is italicized*
+- Itálico - \_This text is italicized\_ - _This text is italicized_
+* Tachado - \~\~This was mistaken text\~\~ - ~~Este texto contém um error~~
 
 ## Texto de referência
 
