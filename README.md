@@ -179,4 +179,44 @@ Para ordenar a lista, coloque um número na frente de cada linha.
 3. John Quincy Adams
 
 
+# Listas aninhadas
 
+Você pode criar uma lista aninhada recuando um ou mais itens da lista abaixo de outro item.
+
+Para criar uma lista aninhada usando o editor Web do GitHub ou um editor de texto que use uma fonte monoespaçada, como o Visual Studio Code, você pode alinhar a lista visualmente. Digite caracteres de espaço na frente do item de lista aninhada até que o caractere de marcador da lista `(- ou *)` fique diretamente abaixo do primeiro caractere do texto no item acima dele.
+
+```md
+1. First list item
+   - First nested list item
+     - Second nested list item
+```
+
+1. First list item
+   - First nested list item
+     - Second nested list item
+
+
+Para criar uma lista aninhada no editor de comentários do GitHub, que não usa uma fonte monoespaçada, você pode observar o item da lista logo acima da lista aninhada e contar o número de caracteres que aparecem antes do conteúdo do item. Em seguida, digite esse número de caracteres de espaço na fonte do item da linha aninhada.
+
+Neste exemplo, você pode adicionar um item de lista aninhada no item de _lista 100_. First list item recuando o item de lista aninhada no mínimo cinco espaços, pois há cinco caracteres *(100. )* antes de First list item.
+
+```md
+100. First list item
+     - First nested list item
+```
+
+100. First list item
+     - First nested list item
+
+
+Você pode criar vários níveis de listas aninhadas usando o mesmo método. Por exemplo, como o primeiro item de lista aninhada tem sete caracteres _(␣␣␣␣␣-␣)_ antes do conteúdo da lista aninhada First nested list item, você precisa recuar o segundo item de lista aninhada com sete espaços.
+
+```md
+100. First list item
+     - First nested list item
+       - Second nested list item
+```
+
+100. First list item
+     - First nested list item
+       - Second nested list item
