@@ -220,3 +220,24 @@ Você pode criar vários níveis de listas aninhadas usando o mesmo método. Por
 100. First list item
      - First nested list item
        - Second nested list item
+
+
+
+## Listas de tarefas
+
+Para criar uma lista de tarefas, coloque um hífen e um espaço seguidos de `[ ]` antes dos itens de lista. Para marcar uma tarefa como concluída, use `[x]`.
+
+```md
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+```
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+Se a descrição de um item da lista de tarefas começar com parênteses, você precisará fazer escape dele com `\`:
+
+```md
+- [ ] \(Optional) Open a followup issue
+```
