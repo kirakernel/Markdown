@@ -126,3 +126,30 @@ Você pode exibir uma imagem adicionando `!` e colocando o texto Alt entre `[ ]`
 ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 ```
 ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
+
+
+## Especificando um tema para o qual uma imagem será exibida
+
+Você pode especificar o tema para o qual uma imagem é exibida no Markdown usando o elemento HTML `<picture>` em combinação com o recurso de mídia _prefers-color-scheme_. Nós distinguimos entre os modos de cores claro e escuro. Portanto, há duas opções disponíveis. Você pode usar essas opções para exibir imagens otimizadas para fundos escuros ou claros. Isso é particularmente útil para imagens PNG transparentes.
+
+Por exemplo, o seguinte código exibe uma imagem de sol para temas claros e uma lua para temas escuros:
+
+```md
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
+```
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
+
+O método antigo de especificar imagens com base no tema, usando um fragmento acrescentado à URL (**#gh-dark-mode-only** ou **#gh-light-mode-only**), foi preterido e será removido em favor do novo método descrito acima.
+
+
+
