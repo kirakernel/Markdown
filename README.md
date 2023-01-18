@@ -83,3 +83,16 @@ Em problemas, solicitações de pull e discussões, você pode chamar cores dent
 The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
 ```
 The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
+
+
+
+## Links
+Você pode criar um link embutido colocando o texto do link entre colchetes `[ ]` e colocando a URL entre parênteses `( )`. Você também pode usar o atalho de teclado `Command+K` para criar um link. Depois de selecionar o texto, você poderá colar uma URL da área de transferência para criar um link automaticamente com base na seleção.
+
+Você também pode criar um **hiperlink Markdown** realçando o texto e usando o atalho de teclado `Command+V`. Se você quiser substituir o texto pelo link, use o atalho de teclado `Command+Shift+V`.
+
+```md
+This site was built using [GitHub Pages](https://pages.github.com/).
+```
+
+This site was built using [GitHub Pages](https://pages.github.com/).
