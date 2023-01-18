@@ -44,4 +44,33 @@ Text that is not a quote
  > Text that is a quote
 
 
+
+## Citar código
+
+Você pode chamar código ou um comando em uma frase com aspas simples. O texto entre as aspas não será formatado. Você também pode pressionar o atalho de teclado `Comando+E (Mac)` ou `Ctrl+E (Windows/Linux)` para inserir os acentos graves para um bloco de código dentro de uma linha de Markdown.
+
+```md
+Use `git status` to list all new or modified files that haven't yet been committed.
+```
+
+Use `git status` to list all new or modified files that haven't yet been committed.
+
+
+Para formatar código ou texto no próprio bloco distinto, use aspas triplas.
+
+```md
+Some basic Git commands are:
+\```
+git status
+git add
+git commit
+\```
+```
+
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
  
