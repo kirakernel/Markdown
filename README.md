@@ -74,3 +74,12 @@ git add
 git commit
 ```
  
+
+## Modelos de cores com suporte
+
+Em problemas, solicitações de pull e discussões, você pode chamar cores dentro de uma frase usando aspas invertidas. Um modelo de cor com suporte em aspas invertidas exibirá uma visualização da cor.
+
+```md
+The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
+```
+The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
