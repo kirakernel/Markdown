@@ -257,3 +257,19 @@ Quando você menciona uma equipe principal, os integrantes de suas equipes secun
 Se você digitar um símbolo `@`, uma lista de pessoas ou de equipes em um projeto será exibida. A lista é filtrada à medida que você digita. Portanto, assim que você achar o nome da pessoa ou da equipe que está procurando, use as teclas de seta para selecioná-lo e pressione tab ou enter para completar o nome. Para equipes, insira o `@organization/team-name` e todos os membros dessa equipe serão inscritos na conversa.
 
 Os resultados do preenchimento automático são restritos aos colaboradores do repositório e qualquer outro participante no thread.
+
+## Alerts
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advices about risks or negative outcomes of certain actions.
